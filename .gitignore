@@ -1,0 +1,27 @@
+# Terraform 상태 파일
+*.tfstate
+*.tfstate.*
+
+# Terraform 백업 파일
+*.backup
+
+# Terraform 변수 파일
+*.tfvars
+*.tfvars.json
+
+# Crash 로그 파일
+crash.log
+
+# Terraform 플러그인 디렉토리
+.terraform/
+
+# 터미널 출력 파일
+terraform.tfplan
+planfile
+
+# .env 파일 (환경 변수 포함 시)
+.env
+
+# 개인적으로 추가할 필요가 있는 비공개 파일
+*.secret
+
